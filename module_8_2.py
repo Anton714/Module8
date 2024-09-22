@@ -5,8 +5,7 @@ def personal_sum(numbers):
     for i in range(len(numbers)):
         try:
             result += numbers[i]
-            count_1 += 1
-
+           
         except TypeError:
             incorrect_data += 1
             print(f'Некорректный тип данных для подсчёта суммы - {numbers[i]}')
