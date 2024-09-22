@@ -1,8 +1,7 @@
 def personal_sum(numbers):
     result: float = 0
     incorrect_data: int = 0
-    count_1 = 0
-
+   
     for i in range(len(numbers)):
         try:
             result += numbers[i]
